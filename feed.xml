@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>GIA — Practical Digital Guides</title>
+<link>https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/</link>
+<description>Original educational guides and verifiable GIA digital-work demonstrations. No invented client work or guaranteed outcomes.</description>
+<language>en</language>
+<atom:link href="https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+<title>How to scope a small digital task before requesting a quote</title>
+<link>https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/guides/scope-a-small-digital-task.html</link>
+<guid isPermaLink="true">https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/guides/scope-a-small-digital-task.html</guid>
+<pubDate>Thu, 12 Nov 2026 23:00:00 GMT</pubDate>
+<description>Free practical checklist for inputs, outputs, budget, deadline and permissions when outsourcing a small digital task.</description>
+</item>
+<item>
+<title>How to export spreadsheet-safe CSV</title>
+<link>https://github.com/nazarijlarin402-pixel/gia-digital-services-demo/blob/main/guides/safe-csv-export.md</link>
+<guid isPermaLink="false">gia-guide-safe-csv-export-v1</guid>
+<pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
+<description>Practical guide to safely exporting structured CSV data.</description>
+</item>
+<item>
+<title>Static landing page project brief</title>
+<link>https://github.com/nazarijlarin402-pixel/gia-digital-services-demo/blob/main/guides/landing-page-project-brief.md</link>
+<guid isPermaLink="false">gia-guide-landing-page-brief-v1</guid>
+<pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
+<description>Checklist for specifying a small static business website.</description>
+</item>
+<item>
+<title>English, Ukrainian and Polish UI localization checklist</title>
+<link>https://github.com/nazarijlarin402-pixel/gia-digital-services-demo/blob/main/guides/ui-localization-checklist.md</link>
+<guid isPermaLink="false">gia-guide-ui-localization-v1</guid>
+<pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
+<description>Checklist for reviewing multilingual interface text and placeholders.</description>
+</item>
+</channel></rss>
