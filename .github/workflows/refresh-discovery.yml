@@ -1,0 +1,71 @@
+name: GIA public discovery automation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "guides/**"
+      - "marketing/update_feeds.py"
+      - ".github/workflows/refresh-discovery.yml"
+  schedule:
+    - cron: "27 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: gia-public-discovery
+  cancel-in-progress: false
+
+jobs:
+  update-feeds:
+    if: github.repository == 'nazarijlarin402-pixel/gia-digital-services-demo'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout verified owner repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Refresh RSS and sitemap from committed articles
+        run: python3 marketing/update_feeds.py
+
+      - name: Check whether feeds changed
+        id: feeds
+        shell: bash
+        run: |
+          if git diff --quiet -- feed.xml sitemap.xml; then
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Persist only updated public discovery documents
+        if: steps.feeds.outputs.updated == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- feed.xml sitemap.xml
+          git commit -m "docs: refresh owned-publication discovery metadata [skip ci]"
+          git push origin HEAD:main
+
+      - name: Request Pages rebuild after bot commit
+        if: steps.feeds.outputs.updated == 'true'
+        shell: bash
+        env:
+          GIA_GH_TOKEN: ${{ github.token }}
+        run: |
+          # Bot commits do not themselves trigger GitHub Pages deployments.
+          curl -fsSL --retry 2 --retry-delay 3 --max-time 30 \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GIA_GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            "https://api.github.com/repos/nazarijlarin402-pixel/gia-digital-services-demo/pages/builds" \
+          || echo "::warning::Pages rebuild request was not accepted; check Pages permissions"
