@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-13",
+  "language": "pl",
+  "topic": "site",
+  "caption": "TWOJA STRONA. JASNY PLAN.\nProsta witryna dla Twojego projektu. Uzgodnijmy zakres i wymagania.\nOryginalny przykład. Praca wspierana przez AI.\nhttps://gia-2p2.pages.dev/",
+  "disclosure": "Original programmatic illustration; not a photo",
+  "source": "original GIA services portfolio",
+  "channels": {
+    "instagram": "awaiting_verified_connection",
+    "facebook": "awaiting_verified_connection",
+    "linkedin": "awaiting_verified_connection"
+  },
+  "images": {
+    "feed": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-13/feed.jpg",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c0cc3ba499a3ba9ec8c7c662377e2bade3ea7c4bf82ce1110018142f982138d2"
+    },
+    "square": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-13/square.jpg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "4e4e17083f41e24c583cfe8fb7ad93927ecb49df125585e1da4ecb004796ab05"
+    },
+    "story": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-13/story.jpg",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "40133a9d773af2e0a61c09ce8bdbccfb7078f731ed850a21f802be808c757a6e"
+    }
+  }
+}
