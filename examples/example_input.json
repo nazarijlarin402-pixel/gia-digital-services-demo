@@ -1,0 +1,6 @@
+[
+  {"id":"1","name":"Demo landing page","note":"Accessible HTML structure"},
+  {"id":"2","name":"Data cleanup","note":"=HYPERLINK(\"https://example.invalid\",\"click\")"},
+  {"id":"2","name":"Duplicate entry","note":"Intentionally removed"},
+  {"id":"3","name":"Localization","note":"UI copy in Ukrainian and Polish"}
+]
