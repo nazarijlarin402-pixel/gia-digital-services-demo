@@ -16,6 +16,7 @@ Explore short, reproducible explanations before contacting us:
 - [Static landing page project brief](guides/landing-page-project-brief.md)
 - [Ukrainian, Polish and English UI localization checklist](guides/ui-localization-checklist.md)
 - [All guides](guides/README.md)
+- [How to scope a small digital task before requesting a quote](guides/scope-a-small-digital-task.md)
 
 These are educational examples, not evidence of previous paid work.
 
