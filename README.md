@@ -19,6 +19,8 @@ Explore short, reproducible explanations before contacting us:
 
 These are educational examples, not evidence of previous paid work.
 
+**Browse the live free demo showcase:** https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/
+
 **Project inquiries:** https://gia-2p2.pages.dev/
 
 Before accepting paid work we agree on a precise scope, input files, output format, budget, delivery time, AI-assisted workflow permissions and confidentiality. Complex or regulated work may require qualified human review. No payment, past client success or professional certificate is implied by these demos.
