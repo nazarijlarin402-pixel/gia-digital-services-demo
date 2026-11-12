@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Original synthetic responsive landing page demo by GIA.">
+<title>Field Notes — Original GIA landing page demo</title>
+<style>
+:root{font:16px system-ui,sans-serif;color-scheme:dark;background:#101927;color:#f2f4f8}
+*{box-sizing:border-box}body{margin:0;line-height:1.65}
+header,main,footer{max-width:1024px;margin:auto;padding:1.25rem}
+header{display:flex;justify-content:space-between;align-items:center;gap:1rem;border-bottom:1px solid #3c4761}
+nav a{margin-left:1rem;color:#a7ddff}a:focus-visible{outline:3px solid #8ddaff;outline-offset:4px}
+.hero{padding:6rem 0 4rem}.tag{color:#a7ddff;text-transform:uppercase;letter-spacing:.12em}
+h1{font-size:clamp(2.3rem,6vw,4.5rem);line-height:1.12;margin:.8rem 0}
+.lead{max-width:690px;color:#bec8d8;font-size:1.2rem}
+.button{display:inline-block;background:#9bdeff;padding:.7rem 1.2rem;color:#102133;border-radius:.7rem;font-weight:700;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+article{border:1px solid #3c4761;border-radius:1rem;background:#202a3c;padding:1.5rem}
+footer{margin-top:4rem;border-top:1px solid #3c4761;color:#bcc5d3}
+@media(max-width:670px){.grid{grid-template-columns:1fr}header{flex-wrap:wrap}nav a:first-child{margin-left:0}}
+</style>
+</head>
+<body>
+<header><strong>Field Notes</strong><nav aria-label="Main navigation"><a href="#features">Features</a><a href="#about">About</a></nav></header>
+<main>
+<section class="hero"><p class="tag">Original GIA demonstration — not client work</p><h1>A focused page with a clear next step.</h1><p class="lead">An accessible, responsive static page created as a sample. No frameworks, trackers or external resources.</p><a class="button" href="#features">View features</a></section>
+<section id="features"><h2>What is demonstrated</h2><div class="grid">
+<article><h3>Responsive</h3><p>Desktop columns become mobile cards.</p></article>
+<article><h3>Accessible</h3><p>Semantic structure and visible keyboard focus.</p></article>
+<article><h3>Lightweight</h3><p>Plain HTML and CSS without external requests.</p></article>
+</div></section><section id="about"><h2>Demonstration only</h2><p>Real projects require separately agreed scope and terms.</p></section>
+</main><footer>GIA original demonstration · 2026</footer>
+</body></html>
