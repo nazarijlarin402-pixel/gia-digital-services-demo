@@ -1,0 +1,68 @@
+name: GIA autonomous media studio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "marketing/build_media.py"
+      - "marketing/visual_renderer.py"
+      - ".github/workflows/media-studio.yml"
+  schedule:
+    - cron: "13 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: gia-original-media-publication
+  cancel-in-progress: false
+
+jobs:
+  make-images:
+    if: github.repository == 'nazarijlarin402-pixel/gia-digital-services-demo'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout published GIA originals
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install image generator dependency
+        run: python3 -m pip install --disable-pip-version-check "Pillow>=11,<13"
+
+      - name: Generate three verified original JPEG assets and captions
+        run: python3 marketing/build_media.py
+
+      - name: Detect changed generated media
+        id: changed
+        run: |
+          git add -- media/
+          if git diff --cached --quiet; then
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish original owned media kit
+        if: steps.changed.outputs.updated == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "media: publish today's original GIA graphic kit [skip ci]"
+          git push origin HEAD:main
+
+      - name: Request Pages rebuild for published files
+        if: steps.changed.outputs.updated == 'true'
+        env:
+          GIA_GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail --silent --show-error --retry 2 --max-time 30 \
+            --request POST \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${GIA_GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2026-03-10" \
+            "https://api.github.com/repos/nazarijlarin402-pixel/gia-digital-services-demo/pages/builds" \
+          || echo "::warning::GitHub Pages rebuild needs inspection"
