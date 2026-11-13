@@ -1,0 +1,69 @@
+{
+  "generated_with": "gia.microservice_offers.prepare",
+  "illustrative_only": true,
+  "no_client_or_payment": true,
+  "samples": {
+    "csv": {
+      "files": {
+        "cleaned.csv": {
+          "bytes": 49,
+          "sha256": "c3573ecbea8a4983f9a34a03305d65bf4c6fdeab2f2e73bab065fcb54675d0bf"
+        },
+        "csv-records.json": {
+          "bytes": 119,
+          "sha256": "1041c56f80eba9988f3e5dfe6661276ad130428a6e115f3220f8b6f40b4e07a3"
+        }
+      },
+      "input": "messy.csv",
+      "package": "basic",
+      "quality": {
+        "columns": 2,
+        "csv_json_equivalent": true,
+        "formula_escaping_applied": true,
+        "input_rows": 3,
+        "output_rows": 2,
+        "removed_duplicate_rows": 1
+      }
+    },
+    "json": {
+      "files": {
+        "normalized.json": {
+          "bytes": 151,
+          "sha256": "a10ff7a3d4ad32b1bab297c6150859d1e0450531a7aa696ff0a231ab5ce16683"
+        },
+        "records.jsonl": {
+          "bytes": 100,
+          "sha256": "6f08aedc0865a410b9327375ab1ed8919d6ada780a67d64c54c96fe90ae692e9"
+        }
+      },
+      "input": "customer-input.json",
+      "package": "expanded",
+      "quality": {
+        "root_type": "list",
+        "semantic_round_trip": true,
+        "strict_json": true
+      }
+    },
+    "landing": {
+      "files": {
+        "landing.zip": {
+          "bytes": 3356,
+          "sha256": "8e0aac143249e2167cc1ada409fcbdc6386f838eab2a8cfe75576d9b87fe12a5"
+        }
+      },
+      "input": "landing-brief.json",
+      "package": "basic",
+      "quality": {
+        "contact_backend": false,
+        "internal_links": true,
+        "no_scripts": true,
+        "pages": 1,
+        "published": false,
+        "responsive": true,
+        "seo_markup": true,
+        "status": "verified"
+      }
+    }
+  },
+  "version": "2026-11-13"
+}
