@@ -1,0 +1,24 @@
+{
+  "site_name": "Illustrative sample studio",
+  "tagline": "An example static landing page — no client represented",
+  "theme": "forest",
+  "language": "en",
+  "pages": [
+    {
+      "slug": "index",
+      "title": "Illustrative sample studio",
+      "description": "A generated sample of a one-page static business landing package.",
+      "intro": "Illustrative sample only. Replace every business detail with customer-approved copy.",
+      "sections": [
+        {
+          "heading": "A clear service offer",
+          "text": "Describe the customer's actual service here using approved copy. This sample makes no claims about clients or results."
+        },
+        {
+          "heading": "A simple next step",
+          "text": "Add an approved public contact link after customer review."
+        }
+      ]
+    }
+  ]
+}
