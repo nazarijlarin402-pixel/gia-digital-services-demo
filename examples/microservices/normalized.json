@@ -1,0 +1,12 @@
+[
+  {
+    "active": true,
+    "label": "Зразок",
+    "quantity": 2
+  },
+  {
+    "active": false,
+    "label": "Example",
+    "quantity": 0
+  }
+]
