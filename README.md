@@ -8,6 +8,10 @@ This public portfolio contains small, reproducible demonstrations of services th
 - [Responsive static HTML/CSS page](examples/landing.html)
 - [English, Ukrainian and Polish UI copy drafts](examples/localization.md)
 
+## Three scoped service packages
+
+Compare three nonbinding USD starting prices and independently inspect actual generated examples before discussing an order: [GIA service packages](services/) (static landing ZIP, spreadsheet-safe CSV, and JSON normalization). You can then [request a private quote](https://gia-2p2.pages.dev/inquiry) without registering. This is a sample catalog, not evidence of customer orders or payment receipts.
+
 ## Free practical guides
 
 Explore short, reproducible explanations before contacting us:
