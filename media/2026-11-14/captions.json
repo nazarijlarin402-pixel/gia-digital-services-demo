@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-14",
+  "language": "en",
+  "topic": "data",
+  "caption": "CSV / JSON MADE CLEAR.\nClean up and format structured data. Specific inputs, verifiable outputs.\nOriginal illustrative material. AI-assisted work.\nhttps://gia-2p2.pages.dev/",
+  "disclosure": "Original programmatic illustration; not a photo",
+  "source": "original GIA services portfolio",
+  "channels": {
+    "instagram": "awaiting_verified_connection",
+    "facebook": "awaiting_verified_connection",
+    "linkedin": "awaiting_verified_connection"
+  },
+  "images": {
+    "feed": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-14/feed.jpg",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "6e4ae20fd7810d903a38ba6cd76bfb07d2afec3293dbb69ee774261ea51a865a"
+    },
+    "square": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-14/square.jpg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "7d56a2193af601ed4c70545781de29558e1e52480f0f1af87f32049dfa8b69ea"
+    },
+    "story": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-14/story.jpg",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "4c1e387cc0d8bcc55d8d35a3a0a2b06f8164e6633ac1c7699acc2cd0d8e5c9a2"
+    }
+  }
+}
