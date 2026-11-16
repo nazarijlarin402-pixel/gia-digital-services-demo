@@ -10,7 +10,14 @@ This public portfolio contains small, reproducible demonstrations of services th
 
 ## Three scoped service packages
 
-Compare three nonbinding USD starting prices and independently inspect actual generated examples before discussing an order: [GIA service packages](services/) (static landing ZIP, spreadsheet-safe CSV, and JSON normalization). You can then [request a private quote](https://gia-2p2.pages.dev/inquiry) without registering. This is a sample catalog, not evidence of customer orders or payment receipts.
+Compare original demos and the actual published buyer paths before contacting GIA:
+
+- [One-page static HTML/CSS landing page — 49 USD](https://gia-2p2.pages.dev/services/landing-page) (existing custom-order form; no hosting/backend)
+- [CSV cleanup and deduplication — request a quote](https://gia-2p2.pages.dev/services/csv-cleanup)
+- [JSON formatting and validation — request a quote](https://gia-2p2.pages.dev/services/json-formatting)
+- [Full GIA service catalog](https://gia-2p2.pages.dev/services) and [free demo packages](services/)
+
+Services are prospective scoped offerings, not evidence of customer orders, completed contracts or payment receipts. Requesting a quote is nonbinding and does not charge anything.
 
 ## Free practical guides
 
