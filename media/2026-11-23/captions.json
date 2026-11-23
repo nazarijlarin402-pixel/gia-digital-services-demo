@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-23",
+  "language": "en",
+  "topic": "localization",
+  "caption": "CONTENT. THREE LANGUAGES.\nEnglish · Polski · Українська Review and precise requirements.\nOriginal illustrative material. AI-assisted work.\nhttps://gia-2p2.pages.dev/",
+  "disclosure": "Original programmatic illustration; not a photo",
+  "source": "original GIA services portfolio",
+  "channels": {
+    "instagram": "awaiting_verified_connection",
+    "facebook": "awaiting_verified_connection",
+    "linkedin": "awaiting_verified_connection"
+  },
+  "images": {
+    "feed": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-23/feed.jpg",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "94fbdb20aea06935066ecb0561aa018efeb80b5f07cbfc1ea5033d5f246abe64"
+    },
+    "square": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-23/square.jpg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "a8428f5f4eaf014590c2175e5c9bd15be232ba6821daa5ca88cddf2d82b8f1f3"
+    },
+    "story": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-23/story.jpg",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "1e76b3a9c5f9d7b7d1317f339579b359c774b5b855cc8a1d5d5e5d5816e5f201"
+    }
+  }
+}
