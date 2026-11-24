@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-24",
+  "language": "uk",
+  "topic": "site",
+  "caption": "ВАШ САЙТ. ЧІТКИЙ ПЛАН.\nСтатична сторінка для твого проєкту. Обговоримо обсяг та вимоги.\nОригінальний зразок. Робота з підтримкою ШІ.\nhttps://gia-2p2.pages.dev/",
+  "disclosure": "Original programmatic illustration; not a photo",
+  "source": "original GIA services portfolio",
+  "channels": {
+    "instagram": "awaiting_verified_connection",
+    "facebook": "awaiting_verified_connection",
+    "linkedin": "awaiting_verified_connection"
+  },
+  "images": {
+    "feed": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-24/feed.jpg",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "c396fb9e3a74ee344d2432f853bcf98a93c6887b6d7fe3381980d86a84b34c51"
+    },
+    "square": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-24/square.jpg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "58e54a4ed3758e5f6b50bb736731dc33f83c04da0ef75cca7aa6ae0ea5da134f"
+    },
+    "story": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-24/story.jpg",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "8481eac4bac4a36beb839b44c68c97a9f3db80a89b2863dbbf08ecd7ba9f939a"
+    }
+  }
+}
