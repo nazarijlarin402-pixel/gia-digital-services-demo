@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-27",
+  "language": "uk",
+  "topic": "data",
+  "caption": "CSV / JSON БЕЗ ХАОСУ.\nОчищення та форматування даних. Вхідні файли й результат узгоджуємо.\nОригінальний зразок. Робота з підтримкою ШІ.\nhttps://gia-2p2.pages.dev/",
+  "disclosure": "Original programmatic illustration; not a photo",
+  "source": "original GIA services portfolio",
+  "channels": {
+    "instagram": "awaiting_verified_connection",
+    "facebook": "awaiting_verified_connection",
+    "linkedin": "awaiting_verified_connection"
+  },
+  "images": {
+    "feed": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-27/feed.jpg",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "8f8b6291dedb63e5c9017720bc5c6ba04f26732e73922cca4e9c6028c6388ea8"
+    },
+    "square": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-27/square.jpg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "0910a6e0fe0475c5bd65e326d39da31ad023fa7fcc4b21698b80c274f84b0f71"
+    },
+    "story": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-27/story.jpg",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "262f56492eac10b1188c701c4b192a9bc753fd19f3437caf3caccc9e7a9b9fdf"
+    }
+  }
+}
