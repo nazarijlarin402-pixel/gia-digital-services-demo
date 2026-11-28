@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-28",
+  "language": "pl",
+  "topic": "localization",
+  "caption": "TEKSTY W TRZECH JĘZYKACH.\nPolski · Українська · English Weryfikacja i jasne wymagania.\nOryginalny przykład. Praca wspierana przez AI.\nhttps://gia-2p2.pages.dev/",
+  "disclosure": "Original programmatic illustration; not a photo",
+  "source": "original GIA services portfolio",
+  "channels": {
+    "instagram": "awaiting_verified_connection",
+    "facebook": "awaiting_verified_connection",
+    "linkedin": "awaiting_verified_connection"
+  },
+  "images": {
+    "feed": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-28/feed.jpg",
+      "width": 1080,
+      "height": 1350,
+      "sha256": "e59795d1350a03104d91a486d386c7e2d5d1a7966ef65cdee00c598d876eff67"
+    },
+    "square": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-28/square.jpg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "cd60f1a076a6da2ed798f7b730ff01f4fb5f8bcd4bcffe5c6e597c1cf136bbe1"
+    },
+    "story": {
+      "url": "https://nazarijlarin402-pixel.github.io/gia-digital-services-demo/media/2026-11-28/story.jpg",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "02068f2354ecf8006bb394a690caed1fed47fd172fe4e0e809db73a18cc2d852"
+    }
+  }
+}
